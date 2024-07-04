@@ -89,7 +89,9 @@ li {
 .mt-131 {
     margin-top: 131px;
 }
-
+.mt-95{
+    margin-top: 95px !important;
+}
 .btn:hover {
     background-color: #FFFFFF;
     color: #2C49FE;
@@ -165,7 +167,6 @@ li {
     border-radius: 23px;
 
 }
-
 .primary-btn:hover {
     background-color: #FFFFFF;
     color: #2C49FE;
@@ -184,7 +185,7 @@ li {
 }
 
 .card-box:hover {
-    border: transparent;
+    border:  1px solid transparent;
     box-shadow: 0px 8px 35px 0px #0000001A;
 
 }
