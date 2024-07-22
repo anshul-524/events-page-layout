@@ -44,7 +44,10 @@ li {
     color: #FFFFFF;
     font-size: var(--fs-16);
 }
-
+.home:hover{
+    
+    -webkit-text-stroke: 1px;
+}
 .btn {
     background: #2C49FE;
     height: 46px;
@@ -224,7 +227,7 @@ li {
     line-height: 21px;
     text-align: left;
     color: #FFFFFF;
-
+    max-width:346px;
 }
 
 .mt-155 {
