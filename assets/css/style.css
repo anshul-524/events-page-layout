@@ -36,7 +36,7 @@ li {
     width: 50px;
 }
 
-.home {
+.nav-link{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 24px;
@@ -44,11 +44,11 @@ li {
     color: #FFFFFF;
     font-size: var(--fs-16);
 }
-.home:hover{
-    
+.nav-link:hover{
+    color: white;
     -webkit-text-stroke: 1px;
 }
-.btn {
+.nav-button {
     background: #2C49FE;
     height: 46px;
     padding: 11px 28px 11px 28px;
@@ -60,6 +60,8 @@ li {
     text-align: left;
     color: #FFFFFF;
     font-size: var(--fs-16);
+    transition: all 300ms linear;
+    border: none;
 }
 
 .p-17 {
@@ -95,7 +97,7 @@ li {
 .mt-95{
     margin-top: 95px !important;
 }
-.btn:hover {
+.nav-button:hover {
     background-color: #FFFFFF;
     color: #2C49FE;
 }
